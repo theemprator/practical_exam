@@ -3,7 +3,7 @@ C++ Data Structures and Algorithms Codes
 
 1.  Linked List
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -106,11 +106,11 @@ int main() {
     cout << "Search 100: " << (list.search(100) ? "Found" : "Not found") << endl;
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-1.  Stack
+2.  Stack
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -277,11 +277,11 @@ int main() {
     cout << "Search 100: " << (list.search(100) ? "Found" : "Not found") << endl;
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-1.  Reverse String using Stack
+3.  Reverse String using Stack
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 #include <stack>
@@ -304,11 +304,11 @@ int main() {
     cout << reverse(s) << endl;
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-1.  Bubble Sort
+4.  Bubble Sort
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -336,11 +336,11 @@ int main() {
         cout << arr[i] << " ";
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-1.  Insertion Sort
+5.  Insertion Sort
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -370,11 +370,11 @@ int main() {
         cout << arr[i] << " ";
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-1.  Selection Sort
+6.  Selection Sort
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -403,4 +403,4 @@ int main() {
         cout << arr[i] << " ";
     return 0;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
